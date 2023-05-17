@@ -22,7 +22,6 @@ def decode(message)
   decoded_words.join(' ')
 end
 
-
 message = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 decoded_message = decode(message)
 puts decoded_message
